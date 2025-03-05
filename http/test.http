@@ -1,0 +1,14 @@
+### testing send a message through the API
+POST http://localhost:8080/api/whatsapp/message
+Content-Type: application/json
+Accept: application/json
+
+{
+    "to": "+59174845900",
+    "body": "hola sofiaaaa :D!"
+}
+
+
+
+####
+
