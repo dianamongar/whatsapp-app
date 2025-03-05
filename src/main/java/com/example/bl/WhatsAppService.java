@@ -73,10 +73,8 @@ public class WhatsAppService {
         );
     }
     
-    // public static Message fetchMessage(String messageSid) {
-
-
-    //     // Usar el MessageFetcher para obtener los detalles del mensaje
-    //     return MessageFetcher.fetcher(messageSid).fetch();
-    // }
+    public Message fetchMessage(String messageSid) {
+        Twilio.init(accountSid, authToken);
+        return Message.fetcher(messageSid).fetch();
+    }
 }

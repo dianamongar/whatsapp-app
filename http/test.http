@@ -21,3 +21,8 @@ Accept: application/json
     "date": "2021-09-30T00:00:00.000Z",
     "time": "12:00:00"
 }
+
+### GET
+GET http://localhost:8080/api/whatsapp/message/MM92e9d073da19ff60894a6f4eb4f19b83
+Content-Type: application/json
+Accept: application/json
