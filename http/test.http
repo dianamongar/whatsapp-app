@@ -5,10 +5,19 @@ Accept: application/json
 
 {
     "to": "+59174845900",
-    "body": "hola sofiaaaa :D!"
+    "body": "probando :D"
 }
 
 
 
 ####
+POST http://localhost:8080/api/whatsapp/message/template
+Content-Type: application/json
+Accept: application/json
 
+{
+    "to": "+59174845900",
+    "body": "probando :D",
+    "date": "2021-09-30T00:00:00.000Z",
+    "time": "12:00:00"
+}
