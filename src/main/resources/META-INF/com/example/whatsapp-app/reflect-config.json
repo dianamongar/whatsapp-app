@@ -1,0 +1,179 @@
+[
+{
+    "name": "com.twilio.rest.api.v2010.account.Message",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.Message$Builder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.Message$Reader",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.Message$Creator",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Resource",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.type.PhoneNumber",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageDeleter",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageFetcher",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageCreator",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageReader",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.type.Twiml",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageStatus",
+    "allDeclaredFields": true
+},
+{
+    "name": "java.util.ArrayList",
+    "allDeclaredConstructors": true
+},
+{
+    "name": "java.util.HashMap",
+    "allDeclaredConstructors": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageDeleter$Builder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageFetcher$Builder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageCreator$Builder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.rest.api.v2010.account.MessageReader$Builder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.ResourceSet",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Page",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.http.Request",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.http.Response",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.Twilio",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.http.HttpMethod",
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Creator$1",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Fetcher$1",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Deleter$1",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.base.Reader$1",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.exception.ApiException",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+},
+{
+    "name": "com.twilio.exception.RestException",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+}
+]
+]

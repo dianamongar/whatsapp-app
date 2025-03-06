@@ -1,5 +1,8 @@
 package com.example.dto;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class MessageResponse {
     public String sid;
     public String status;
