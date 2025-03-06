@@ -59,9 +59,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.twilio.sdk</groupId>
-            <artifactId>twilio</artifactId>
-            <version>10.6.10</version>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-twilio</artifactId>
+            <version>4.10.1</version>
         </dependency>
 
     </dependencies>
