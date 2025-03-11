@@ -58,11 +58,6 @@
             <artifactId>rest-assured</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-twilio</artifactId>
-            <version>4.10.1</version>
-        </dependency>
 
     </dependencies>
 

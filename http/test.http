@@ -1,28 +1,44 @@
-### testing send a message through the API
+
+####
+POST https://graph.facebook.com/v22.0/564075936794992/messages
+Authorization: Bearer EAAJlebb0VCoBOzL6cOxMxZBoHkTxwTa3Y448TcEZBC6lWvZBDzZADfHZBRGpfzJMeEmxd3h4awq93pcAUug6AHEgCXG4TMeuEuDm0MyydplxI5lCU8ZBfAv9hLbGQ8fG4GcIG2MHQ34G4iZBgM8cIVRKKimOw0k581G0dffdJSGppZBVXrjdR5XStpDDO6ydMVgBp9aqzUMss2RLi2QLaLp7WVj7XJgZD
+Content-Type: application/json
+
+{
+  "messaging_product": "whatsapp",
+  "to": "59174845900",
+  "type": "template",
+  "template": {
+    "name": "notification",
+    "language": {
+      "code": "es_MX"
+    },
+    "components": [
+      {
+        "type": "body",
+        "parameters": [
+          {
+            "type": "text",
+            "text": "2025-03-11"
+          },
+          {
+            "type": "text",
+            "text": "14:30"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+### testing a post send message
 POST http://localhost:8080/api/whatsapp/message
 Content-Type: application/json
 Accept: application/json
 
 {
-    "to": "+59174845900",
-    "body": "Hola Ale 10, este es un mensaje de prueba"
+  "to": "59174845900",
+  "date": "2025-03-11",
+  "time": "14:30"
 }
-
-
-
-####
-POST http://localhost:8080/api/whatsapp/message/template
-Content-Type: application/json
-Accept: application/json
-
-{
-    "to": "+59174845900",
-    "body": "probando :D",
-    "date": "2021-09-30T00:00:00.000Z",
-    "time": "12:00:00"
-}
-
-### GET
-GET http://localhost:8080/api/whatsapp/message/MM92e9d073da19ff60894a6f4eb4f19b83
-Content-Type: application/json
-Accept: application/json
